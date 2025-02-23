@@ -156,30 +156,31 @@ function calcularNivel() {
     // Função para determinar a mensagem com base no nível
     function getMensagem(nivel) {
         if (nivel == 0) {
-            return "Nada feito ainda! Hora de começar!";
+            return "Not Done Yet! Time to Start!";
         } else if (nivel <= 1) {
-            return "Nível Inicial: Tudo é meio bagunçado e reativo. Vamos organizar!";
+            return "Initial Level: Reactive and Unpredictable.";
         } else if (nivel <= 2) {
-            return "Nível Gerenciado: Você reage aos problemas, mas pode melhorar!";
+            return "Managed Level: Reactive by Projects.";
         } else if (nivel <= 3) {
-            return "Nível Definido: Você já é proativo e tem padrões. Legal!";
+            return "Defined Level: Proactive with Standards.";
         } else if (nivel <= 4) {
-            return "Nível Quantitativo: Você mede tudo e prevê os resultados. Quase perfeito!";
+            return "Quantitative Level: Measured and Predictable.";
         } else {
-            return "Nível Otimizado: Você é um mestre da segurança, sempre melhorando!";
+            return "Optimized Level: Stable and Continuously Improving.";
         }
     }
 
-    // Mostrar resultados por categoria e geral
-    let resultado = "<h3>Níveis de Maturidade por Categoria:</h3>";
-    resultado += "Govern (GV): " + gvTotal + " - " + getMensagem(gvTotal) + "<br>";
-    resultado += "Identify (ID): " + idTotal + " - " + getMensagem(idTotal) + "<br>";
-    resultado += "Protect (PR): " + prTotal + " - " + getMensagem(prTotal) + "<br>";
-    resultado += "Detect (DE): " + deTotal + " - " + getMensagem(deTotal) + "<br>";
-    resultado += "Respond (RS): " + rsTotal + " - " + getMensagem(rsTotal) + "<br>";
-    resultado += "Recover (RC): " + rcTotal + " - " + getMensagem(rcTotal) + "<br>";
-    resultado += "<h3>Nível Geral da Organização:</h3>";
-    resultado += "Nível Geral: " + totalGeral + " - " + getMensagem(totalGeral);
+    // Mostrar resultados por categoria e geral, com design moderno
+    let resultado = '<div class="result-card">';
+    resultado += '<h3>Maturity Results</h3>';
+    resultado += '<p><strong>Govern (GV):</strong> ' + gvTotal + ' - ' + getMensagem(gvTotal) + '</p>';
+    resultado += '<p><strong>Identify (ID):</strong> ' + idTotal + ' - ' + getMensagem(idTotal) + '</p>';
+    resultado += '<p><strong>Protect (PR):</strong> ' + prTotal + ' - ' + getMensagem(prTotal) + '</p>';
+    resultado += '<p><strong>Detect (DE):</strong> ' + deTotal + ' - ' + getMensagem(deTotal) + '</p>';
+    resultado += '<p><strong>Respond (RS):</strong> ' + rsTotal + ' - ' + getMensagem(rsTotal) + '</p>';
+    resultado += '<p><strong>Recover (RC):</strong> ' + rcTotal + ' - ' + getMensagem(rcTotal) + '</p>';
+    resultado += '<p><strong>Overall Organizational Level:</strong> ' + totalGeral + ' - ' + getMensagem(totalGeral) + '</p>';
+    resultado += '</div>';
 
     document.getElementById("resultado").innerHTML = resultado;
 }

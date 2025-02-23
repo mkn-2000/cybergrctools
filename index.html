@@ -1,1111 +1,1019 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Meu SaaS de Segurança - NIST CSF 2.0</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRC Maturity Tool - NIST CSF 2.0</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Gerencie sua Segurança com NIST CSF 2.0!</h1>
-    <div>
-        <h2>Avalie sua maturidade:</h2>
+    <header>
+        <h1>GRC Maturity Tool - NIST CSF 2.0</h1>
+    </header>
 
-        <!-- Função: Govern (GV) -->
-        <h3>Govern (GV)</h3>
-        <label>GV.OC-01 - Organizational mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements — mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements are understood:</label>
-        <select id="gv_oc_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.OC-02 - The organizational mission and its relationship to cybersecurity risk and information security risk management are understood:</label>
-        <select id="gv_oc_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.OC-03 - Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered:</label>
-        <select id="gv_oc_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.OC-04 - Legal, regulatory, and contractual requirements regarding cybersecurity risk management — agency, industry, and civil liberties obligations — are understood and managed:</label>
-        <select id="gv_oc_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.OC-05 - Critical objectives, capabilities, and services that the organization depends on or expects from external stakeholders are understood and communicated:</label>
-        <select id="gv_oc_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
+    <main>
+        <section class="container">
+            <!-- Govern (GV) -->
+            <div class="category-card">
+                <h2>Govern (GV)</h2>
+                <div class="controls">
+                    <label>GV.OC-01 - Organizational mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements — mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements are understood:</label>
+                    <select id="gv_oc_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OC-02 - The organizational mission and its relationship to cybersecurity risk and information security risk management are understood:</label>
+                    <select id="gv_oc_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OC-03 - Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered:</label>
+                    <select id="gv_oc_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OC-04 - Legal, regulatory, and contractual requirements regarding cybersecurity risk management — agency, industry, and civil liberties obligations — are understood and managed:</label>
+                    <select id="gv_oc_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OC-05 - Critical objectives, capabilities, and services that the organization depends on or expects from external stakeholders are understood and communicated:</label>
+                    <select id="gv_oc_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-01 - Risk management objectives are established, agreed by stakeholders, and used to support organizational priorities, risk decisions, communicated, and applied to tolerance and appetite:</label>
+                    <select id="gv_rm_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-02 - Risk appetite and tolerance statements are established, communicated, and maintained:</label>
+                    <select id="gv_rm_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-03 - Cybersecurity risk management activities and outcomes are included in risk management processes and risk assessment, and enterprise risk management processes are integrated into strategic direction that describes appropriate response options:</label>
+                    <select id="gv_rm_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-04 - Lines of communication across the organization are established for parties responsible for managing cybersecurity risk, including those from suppliers and third parties:</label>
+                    <select id="gv_rm_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-05 - A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risk is established and communicated:</label>
+                    <select id="gv_rm_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-06 - Strategic opportunities (i.e., positive risks) are characterized and included in organizational cybersecurity risk discussions:</label>
+                    <select id="gv_rm_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RM-07 - Cybersecurity roles, responsibilities, and authorities are established and communicated to foster accountability, performance assessment, and continuous improvement:</label>
+                    <select id="gv_rm_07">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RR-01 - Organizational leadership is responsible and accountable for risk and fosters a culture that is risk-aware, ethical, and continually improving:</label>
+                    <select id="gv_rr_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RR-02 - Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, documented, and enforced:</label>
+                    <select id="gv_rr_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RR-03 - Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies:</label>
+                    <select id="gv_rr_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.RR-04 - Cybersecurity is included in human resources practices:</label>
+                    <select id="gv_rr_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.PO-01 - Organizational cybersecurity policy is established, communicated, and enforced:</label>
+                    <select id="gv_po_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.PO-02 - Policies for managing cybersecurity risks are informed based on organizational context, cybersecurity strategy, and priorities in communication:</label>
+                    <select id="gv_po_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OV-01 - Results of organizational cybersecurity management strategy outcomes are reviewed to inform, improve, and adjust the risk management strategy:</label>
+                    <select id="gv_ov_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OV-02 - Cybersecurity risk management strategy is reviewed and adjusted to organizational requirements and risk:</label>
+                    <select id="gv_ov_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.OV-03 - Assurance of cybersecurity risk management performance is evaluated and adjusted as needed:</label>
+                    <select id="gv_ov_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-01 - A cybersecurity supply chain risk management program is identified, established, managed, monitored, and improved by organizational stakeholders:</label>
+                    <select id="gv_sc_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-02 - Policies and processes are established and agreed by the organization, stakeholders, and relevant third parties for suppliers, customers, and partners:</label>
+                    <select id="gv_sc_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-03 - Roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally:</label>
+                    <select id="gv_sc_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-04 - Cybersecurity supply chain risk management is integrated into cybersecurity management, risk assessment, and improvement processes:</label>
+                    <select id="gv_sc_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-05 - Suppliers are known and prioritized by criticality:</label>
+                    <select id="gv_sc_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-06 - Requirements to address cybersecurity risks in other types of suppliers are established, communicated, and integrated into contracts and other third-party relationships:</label>
+                    <select id="gv_sc_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-07 - Planning and due diligence are performed to reduce risk before forming ties with a supplier, their products and services, and other third parties:</label>
+                    <select id="gv_sc_07">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-08 - Relevant suppliers and other third parties are understood, recorded, prioritized, assessed, assured, and responded to:</label>
+                    <select id="gv_sc_08">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-09 - Relevant supplier and other third-party planning, response, and recovery activities are integrated into cybersecurity and supply chain security practices:</label>
+                    <select id="gv_sc_09">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>GV.SC-10 - Cybersecurity supply chain risk management plans include provisions for after the conclusion of a partnership or service agreement:</label>
+                    <select id="gv_sc_10">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                </div>
+            </div>
 
-        <label>GV.RM-01 - Risk management objectives are established, agreed by stakeholders, and used to support organizational priorities, risk decisions, communicated, and applied to tolerance and appetite:</label>
-        <select id="gv_rm_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RM-02 - Risk appetite and tolerance statements are established, communicated, and maintained:</label>
-        <select id="gv_rm_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RM-03 - Cybersecurity risk management activities and outcomes are included in risk management processes and risk assessment, and enterprise risk management processes are integrated into strategic direction that describes appropriate response options:</label>
-        <select id="gv_rm_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RM-04 - Lines of communication across the organization are established for parties responsible for managing cybersecurity risk, including those from suppliers and third parties:</label>
-        <select id="gv_rm_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RM-05 - A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risk is established and communicated:</label>
-        <select id="gv_rm_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RM-06 - Strategic opportunities (i.e., positive risks) are characterized and included in organizational cybersecurity risk discussions:</label>
-        <select id="gv_rm_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RM-07 - Cybersecurity roles, responsibilities, and authorities are established and communicated to foster accountability, performance assessment, and continuous improvement:</label>
-        <select id="gv_rm_07">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
+            <!-- Identify (ID) -->
+            <div class="category-card">
+                <h2>Identify (ID)</h2>
+                <div class="controls">
+                    <label>ID.AM-01 - Inventories of hardware managed by the organization are maintained:</label>
+                    <select id="id_am_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.AM-02 - Inventories of software, services, and systems managed by the organization are maintained:</label>
+                    <select id="id_am_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.AM-03 - Representations of the organization’s authorized network configuration and internal and external network data flows are maintained:</label>
+                    <select id="id_am_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.AM-04 - Inventories of services provided by suppliers are maintained:</label>
+                    <select id="id_am_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.AM-05 - Assets are prioritized based on classification, criticality, resources, and impact on the mission:</label>
+                    <select id="id_am_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.AM-07 - Inventories of data and corresponding metadata for designated data types are maintained:</label>
+                    <select id="id_am_07">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.AM-08 - Systems, hardware, software, services, and data are managed throughout their life cycles:</label>
+                    <select id="id_am_08">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-01 - Vulnerabilities in assets are identified, validated, and recorded:</label>
+                    <select id="id_ra_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-02 - Cyber threat intelligence is received from information sharing forums and sources:</label>
+                    <select id="id_ra_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-03 - Internal and external threats to the organization are identified and recorded:</label>
+                    <select id="id_ra_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-04 - Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded:</label>
+                    <select id="id_ra_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-05 - Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization:</label>
+                    <select id="id_ra_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-06 - Risk responses are chosen, prioritized, planned, tracked, and communicated:</label>
+                    <select id="id_ra_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-07 - Changes and exceptions are managed, assessed for risk impact, recorded, and tracked:</label>
+                    <select id="id_ra_07">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-08 - Processes for receiving, analyzing, and responding to vulnerability disclosures are established:</label>
+                    <select id="id_ra_08">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-09 - The authenticity and integrity of hardware and software are assessed prior to acquisition and use:</label>
+                    <select id="id_ra_09">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.RA-10 - Critical suppliers are assessed prior to acquisition:</label>
+                    <select id="id_ra_10">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.IM-01 - Improvements are identified from evaluations:</label>
+                    <select id="id_im_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.IM-02 - Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties:</label>
+                    <select id="id_im_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.IM-03 - Improvements are identified from execution of operational processes, procedures, and activities:</label>
+                    <select id="id_im_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>ID.IM-04 - Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved:</label>
+                    <select id="id_im_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                </div>
+            </div>
 
-        <label>GV.RR-01 - Organizational leadership is responsible and accountable for risk and fosters a culture that is risk-aware, ethical, and continually improving:</label>
-        <select id="gv_rr_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RR-02 - Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, documented, and enforced:</label>
-        <select id="gv_rr_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RR-03 - Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies:</label>
-        <select id="gv_rr_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.RR-04 - Cybersecurity is included in human resources practices:</label>
-        <select id="gv_rr_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
+            <!-- Protect (PR) -->
+            <div class="category-card">
+                <h2>Protect (PR)</h2>
+                <div class="controls">
+                    <label>PR.AA-01 - Identities and credentials for authorized users, services, and hardware are managed by the organization:</label>
+                    <select id="pr_aa_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AA-02 - Identities are proofed and bound to credentials based on the context of interactions:</label>
+                    <select id="pr_aa_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AA-03 - Users, services, and hardware are authenticated:</label>
+                    <select id="pr_aa_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AA-04 - Identity assertions are protected, conveyed, and verified:</label>
+                    <select id="pr_aa_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AA-05 - Access permissions, entitlements, and authorizations are defined in a policy, managed, and regularly reviewed, and incorporate the principles of least privilege and separation of duties:</label>
+                    <select id="pr_aa_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AA-06 - Physical access to assets is managed, monitored, and enforced commensurate with risk:</label>
+                    <select id="pr_aa_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AT-01 - Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind:</label>
+                    <select id="pr_at_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.AT-02 - Personnel are provided with training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind:</label>
+                    <select id="pr_at_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.DS-01 - The confidentiality, integrity, and availability of data-at-rest are protected:</label>
+                    <select id="pr_ds_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.DS-02 - The confidentiality, integrity, and availability of data-in-transit are protected:</label>
+                    <select id="pr_ds_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.DS-10 - The confidentiality, integrity, and availability of data-in-use are protected:</label>
+                    <select id="pr_ds_10">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.DS-11 - Backups of data are created, protected, maintained, and tested:</label>
+                    <select id="pr_ds_11">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PS-01 - Configuration management practices are established and applied:</label>
+                    <select id="pr_ps_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PS-02 - Software is maintained, replaced, and removed commensurate with risk:</label>
+                    <select id="pr_ps_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PS-03 - Hardware is maintained, replaced, and removed commensurate with risk:</label>
+                    <select id="pr_ps_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PS-04 - Log records are generated and made available for continuous monitoring:</label>
+                    <select id="pr_ps_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PS-05 - Installation and execution of unauthorized software are prevented:</label>
+                    <select id="pr_ps_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PS-06 - Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle:</label>
+                    <select id="pr_ps_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PT-01 - Networks and environments are protected from unauthorized logical access and usage:</label>
+                    <select id="pr_pt_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PT-02 - The organization’s technology assets are protected from environmental threats:</label>
+                    <select id="pr_pt_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PT-03 - Mechanisms are implemented to achieve resilience requirements in normal and adverse situations:</label>
+                    <select id="pr_pt_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>PR.PT-04 - Adequate resource capacity to ensure availability is maintained:</label>
+                    <select id="pr_pt_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                </div>
+            </div>
 
-        <label>GV.PO-01 - Organizational cybersecurity policy is established, communicated, and enforced:</label>
-        <select id="gv_po_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.PO-02 - Policies for managing cybersecurity risks are informed based on organizational context, cybersecurity strategy, and priorities in communication:</label>
-        <select id="gv_po_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
+            <!-- Detect (DE) -->
+            <div class="category-card">
+                <h2>Detect (DE)</h2>
+                <div class="controls">
+                    <label>DE.CM-01 - Networks and network services are monitored to find potentially adverse events:</label>
+                    <select id="de_cm_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.CM-02 - The physical environment is monitored to find potentially adverse events:</label>
+                    <select id="de_cm_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.CM-03 - Personnel activity and technology usage are monitored to find potentially adverse events:</label>
+                    <select id="de_cm_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.CM-06 - External service provider activities and services are monitored to find potentially adverse events:</label>
+                    <select id="de_cm_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.CM-09 - Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events:</label>
+                    <select id="de_cm_09">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.AE-02 - Potentially adverse events are analyzed to better understand associated activities:</label>
+                    <select id="de_ae_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.AE-03 - Information is correlated from multiple sources:</label>
+                    <select id="de_ae_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.AE-04 - The estimated impact and scope of adverse events are understood:</label>
+                    <select id="de_ae_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.AE-06 - Information on adverse events is provided to authorized staff and tools:</label>
+                    <select id="de_ae_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.AE-07 - Cyber threat intelligence and other contextual information are integrated into the analysis:</label>
+                    <select id="de_ae_07">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>DE.AE-08 - Incidents are declared when adverse events meet the defined incident criteria:</label>
+                    <select id="de_ae_08">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                </div>
+            </div>
 
-        <label>GV.OV-01 - Results of organizational cybersecurity management strategy outcomes are reviewed to inform, improve, and adjust the risk management strategy:</label>
-        <select id="gv_ov_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.OV-02 - Cybersecurity risk management strategy is reviewed and adjusted to organizational requirements and risk:</label>
-        <select id="gv_ov_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.OV-03 - Assurance of cybersecurity risk management performance is evaluated and adjusted as needed:</label>
-        <select id="gv_ov_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
+            <!-- Respond (RS) -->
+            <div class="category-card">
+                <h2>Respond (RS)</h2>
+                <div class="controls">
+                    <label>RS.MA-01 - The incident response plan is executed in coordination with relevant third parties once an incident is declared:</label>
+                    <select id="rs_ma_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.MA-02 - Incident reports are triaged and validated:</label>
+                    <select id="rs_ma_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.MA-03 - Incidents are categorized and prioritized:</label>
+                    <select id="rs_ma_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.MA-04 - Incidents are escalated or elevated as needed:</label>
+                    <select id="rs_ma_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.MA-05 - The criteria for initiating incident recovery are applied:</label>
+                    <select id="rs_ma_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.AN-03 - Analysis is performed to establish what has taken place during an incident and the root cause of the incident:</label>
+                    <select id="rs_an_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.AN-06 - Actions performed during an investigation are recorded, and the records’ integrity and provenance are preserved:</label>
+                    <select id="rs_an_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.AN-07 - Incident data and metadata are collected, and their integrity and provenance are preserved:</label>
+                    <select id="rs_an_07">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.AN-08 - An incident’s magnitude is estimated and validated:</label>
+                    <select id="rs_an_08">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.CO-02 - Internal and external stakeholders are notified of incidents:</label>
+                    <select id="rs_co_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.CO-03 - Information is shared with designated internal and external stakeholders:</label>
+                    <select id="rs_co_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.MI-01 - Incidents are contained:</label>
+                    <select id="rs_mi_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RS.MI-02 - Incidents are eradicated:</label>
+                    <select id="rs_mi_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                </div>
+            </div>
 
-        <label>GV.SC-01 - A cybersecurity supply chain risk management program is identified, established, managed, monitored, and improved by organizational stakeholders:</label>
-        <select id="gv_sc_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-02 - Policies and processes are established and agreed by the organization, stakeholders, and relevant third parties for suppliers, customers, and partners:</label>
-        <select id="gv_sc_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-03 - Roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally:</label>
-        <select id="gv_sc_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-04 - Cybersecurity supply chain risk management is integrated into cybersecurity management, risk assessment, and improvement processes:</label>
-        <select id="gv_sc_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-05 - Suppliers are known and prioritized by criticality:</label>
-        <select id="gv_sc_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-06 - Requirements to address cybersecurity risks in other types of suppliers are established, communicated, and integrated into contracts and other third-party relationships:</label>
-        <select id="gv_sc_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-07 - Planning and due diligence are performed to reduce risk before forming ties with a supplier, their products and services, and other third parties:</label>
-        <select id="gv_sc_07">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-08 - Relevant suppliers and other third parties are understood, recorded, prioritized, assessed, assured, and responded to:</label>
-        <select id="gv_sc_08">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-09 - Relevant supplier and other third-party planning, response, and recovery activities are integrated into cybersecurity and supply chain security practices:</label>
-        <select id="gv_sc_09">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>GV.SC-10 - Cybersecurity supply chain risk management plans include provisions for after the conclusion of a partnership or service agreement:</label>
-        <select id="gv_sc_10">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
+            <!-- Recover (RC) -->
+            <div class="category-card">
+                <h2>Recover (RC)</h2>
+                <div class="controls">
+                    <label>RC.RP-01 - The recovery portion of the incident response plan is executed once initiated, from the incident response plan:</label>
+                    <select id="rc_rp_01">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.RP-02 - Recovery actions are selected, scoped, prioritized, and performed:</label>
+                    <select id="rc_rp_02">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.RP-03 - The integrity of backups and other restoration assets is verified before use, then used for restoration:</label>
+                    <select id="rc_rp_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.RP-04 - Critical mission functions and cybersecurity risk management are considered to establish post-incident operational normalcy:</label>
+                    <select id="rc_rp_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.RP-05 - The integrity of restored assets, incident, operational, normal, and services are restored, and normal operating status is confirmed:</label>
+                    <select id="rc_rp_05">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.RP-06 - The end of incident recovery is declared based on criteria, and incident-related documentation is completed:</label>
+                    <select id="rc_rp_06">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.CO-03 - Recovery activities and progress in restoring operational capabilities are communicated with internal and external parties:</label>
+                    <select id="rc_co_03">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                    <label>RC.CO-04 - Public updates on incident recovery are shared using approved methods and messaging:</label>
+                    <select id="rc_co_04">
+                        <option value="0">Not Done</option>
+                        <option value="1">Initial (Reactive, Unpredictable)</option>
+                        <option value="2">Managed (Reactive by Projects)</option>
+                        <option value="3">Defined (Proactive, with Standards)</option>
+                        <option value="4">Quantitative (Measured and Predictable)</option>
+                        <option value="5">Optimized (Continuous Improvement)</option>
+                    </select>
+                </div>
+            </div>
+        </section>
 
-        <!-- Função: Identify (ID) -->
-        <h3>Identify (ID)</h3>
-        <label>ID.AM-01 - Inventories of hardware managed by the organization are maintained:</label>
-        <select id="id_am_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.AM-02 - Inventories of software, services, and systems managed by the organization are maintained:</label>
-        <select id="id_am_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.AM-03 - Representations of the organization’s authorized network configuration and internal and external network data flows are maintained:</label>
-        <select id="id_am_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.AM-04 - Inventories of services provided by suppliers are maintained:</label>
-        <select id="id_am_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.AM-05 - Assets are prioritized based on classification, criticality, resources, and impact on the mission:</label>
-        <select id="id_am_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.AM-07 - Inventories of data and corresponding metadata for designated data types are maintained:</label>
-        <select id="id_am_07">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.AM-08 - Systems, hardware, software, services, and data are managed throughout their life cycles:</label>
-        <select id="id_am_08">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>ID.RA-01 - Vulnerabilities in assets are identified, validated, and recorded:</label>
-        <select id="id_ra_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-02 - Cyber threat intelligence is received from information sharing forums and sources:</label>
-        <select id="id_ra_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-03 - Internal and external threats to the organization are identified and recorded:</label>
-        <select id="id_ra_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-04 - Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded:</label>
-        <select id="id_ra_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-05 - Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization:</label>
-        <select id="id_ra_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-06 - Risk responses are chosen, prioritized, planned, tracked, and communicated:</label>
-        <select id="id_ra_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-07 - Changes and exceptions are managed, assessed for risk impact, recorded, and tracked:</label>
-        <select id="id_ra_07">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-08 - Processes for receiving, analyzing, and responding to vulnerability disclosures are established:</label>
-        <select id="id_ra_08">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-09 - The authenticity and integrity of hardware and software are assessed prior to acquisition and use:</label>
-        <select id="id_ra_09">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.RA-10 - Critical suppliers are assessed prior to acquisition:</label>
-        <select id="id_ra_10">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>ID.IM-01 - Improvements are identified from evaluations:</label>
-        <select id="id_im_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.IM-02 - Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties:</label>
-        <select id="id_im_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.IM-03 - Improvements are identified from execution of operational processes, procedures, and activities:</label>
-        <select id="id_im_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>ID.IM-04 - Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved:</label>
-        <select id="id_im_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <!-- Função: Protect (PR) -->
-        <h3>Protect (PR)</h3>
-        <label>PR.AA-01 - Identities and credentials for authorized users, services, and hardware are managed by the organization:</label>
-        <select id="pr_aa_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.AA-02 - Identities are proofed and bound to credentials based on the context of interactions:</label>
-        <select id="pr_aa_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.AA-03 - Users, services, and hardware are authenticated:</label>
-        <select id="pr_aa_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.AA-04 - Identity assertions are protected, conveyed, and verified:</label>
-        <select id="pr_aa_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.AA-05 - Access permissions, entitlements, and authorizations are defined in a policy, managed, and regularly reviewed, and incorporate the principles of least privilege and separation of duties:</label>
-        <select id="pr_aa_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.AA-06 - Physical access to assets is managed, monitored, and enforced commensurate with risk:</label>
-        <select id="pr_aa_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>PR.AT-01 - Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind:</label>
-        <select id="pr_at_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.AT-02 - Personnel are provided with training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind:</label>
-        <select id="pr_at_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>PR.DS-01 - The confidentiality, integrity, and availability of data-at-rest are protected:</label>
-        <select id="pr_ds_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.DS-02 - The confidentiality, integrity, and availability of data-in-transit are protected:</label>
-        <select id="pr_ds_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.DS-10 - The confidentiality, integrity, and availability of data-in-use are protected:</label>
-        <select id="pr_ds_10">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.DS-11 - Backups of data are created, protected, maintained, and tested:</label>
-        <select id="pr_ds_11">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>PR.PS-01 - Configuration management practices are established and applied:</label>
-        <select id="pr_ps_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PS-02 - Software is maintained, replaced, and removed commensurate with risk:</label>
-        <select id="pr_ps_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PS-03 - Hardware is maintained, replaced, and removed commensurate with risk:</label>
-        <select id="pr_ps_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PS-04 - Log records are generated and made available for continuous monitoring:</label>
-        <select id="pr_ps_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PS-05 - Installation and execution of unauthorized software are prevented:</label>
-        <select id="pr_ps_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PS-06 - Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle:</label>
-        <select id="pr_ps_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>PR.PT-01 - Networks and environments are protected from unauthorized logical access and usage:</label>
-        <select id="pr_pt_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PT-02 - The organization’s technology assets are protected from environmental threats:</label>
-        <select id="pr_pt_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PT-03 - Mechanisms are implemented to achieve resilience requirements in normal and adverse situations:</label>
-        <select id="pr_pt_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>PR.PT-04 - Adequate resource capacity to ensure availability is maintained:</label>
-        <select id="pr_pt_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <!-- Função: Detect (DE) -->
-        <h3>Detect (DE)</h3>
-        <label>DE.CM-01 - Networks and network services are monitored to find potentially adverse events:</label>
-        <select id="de_cm_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.CM-02 - The physical environment is monitored to find potentially adverse events:</label>
-        <select id="de_cm_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.CM-03 - Personnel activity and technology usage are monitored to find potentially adverse events:</label>
-        <select id="de_cm_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.CM-06 - External service provider activities and services are monitored to find potentially adverse events:</label>
-        <select id="de_cm_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.CM-09 - Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events:</label>
-        <select id="de_cm_09">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>DE.AE-02 - Potentially adverse events are analyzed to better understand associated activities:</label>
-        <select id="de_ae_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.AE-03 - Information is correlated from multiple sources:</label>
-        <select id="de_ae_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.AE-04 - The estimated impact and scope of adverse events are understood:</label>
-        <select id="de_ae_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.AE-06 - Information on adverse events is provided to authorized staff and tools:</label>
-        <select id="de_ae_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.AE-07 - Cyber threat intelligence and other contextual information are integrated into the analysis:</label>
-        <select id="de_ae_07">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>DE.AE-08 - Incidents are declared when adverse events meet the defined incident criteria:</label>
-        <select id="de_ae_08">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <!-- Função: Respond (RS) -->
-        <h3>Respond (RS)</h3>
-        <label>RS.MA-01 - The incident response plan is executed in coordination with relevant third parties once an incident is declared:</label>
-        <select id="rs_ma_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.MA-02 - Incident reports are triaged and validated:</label>
-        <select id="rs_ma_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.MA-03 - Incidents are categorized and prioritized:</label>
-        <select id="rs_ma_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.MA-04 - Incidents are escalated or elevated as needed:</label>
-        <select id="rs_ma_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.MA-05 - The criteria for initiating incident recovery are applied:</label>
-        <select id="rs_ma_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>RS.AN-03 - Analysis is performed to establish what has taken place during an incident and the root cause of the incident:</label>
-        <select id="rs_an_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.AN-06 - Actions performed during an investigation are recorded, and the records’ integrity and provenance are preserved:</label>
-        <select id="rs_an_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.AN-07 - Incident data and metadata are collected, and their integrity and provenance are preserved:</label>
-        <select id="rs_an_07">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.AN-08 - An incident’s magnitude is estimated and validated:</label>
-        <select id="rs_an_08">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>RS.CO-02 - Internal and external stakeholders are notified of incidents:</label>
-        <select id="rs_co_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.CO-03 - Information is shared with designated internal and external stakeholders:</label>
-        <select id="rs_co_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>RS.MI-01 - Incidents are contained:</label>
-        <select id="rs_mi_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RS.MI-02 - Incidents are eradicated:</label>
-        <select id="rs_mi_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <!-- Função: Recover (RC) -->
-        <h3>Recover (RC)</h3>
-        <label>RC.RP-01 - The recovery portion of the incident response plan is executed once initiated, from the incident response plan:</label>
-        <select id="rc_rp_01">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RC.RP-02 - Recovery actions are selected, scoped, prioritized, and performed:</label>
-        <select id="rc_rp_02">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RC.RP-03 - The integrity of backups and other restoration assets is verified before use, then used for restoration:</label>
-        <select id="rc_rp_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RC.RP-04 - Critical mission functions and cybersecurity risk management are considered to establish post-incident operational normalcy:</label>
-        <select id="rc_rp_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RC.RP-05 - The integrity of restored assets, incident, operational, normal, and services are restored, and normal operating status is confirmed:</label>
-        <select id="rc_rp_05">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RC.RP-06 - The end of incident recovery is declared based on criteria, and incident-related documentation is completed:</label>
-        <select id="rc_rp_06">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-
-        <label>RC.CO-03 - Recovery activities and progress in restoring operational capabilities are communicated with internal and external parties:</label>
-        <select id="rc_co_03">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-        <label>RC.CO-04 - Public updates on incident recovery are shared using approved methods and messaging:</label>
-        <select id="rc_co_04">
-            <option value="0">Nada feito</option>
-            <option value="1">Inicial (reativo, imprevisível)</option>
-            <option value="2">Gerenciado (reativo por projetos)</option>
-            <option value="3">Definido (proativo, com padrões)</option>
-            <option value="4">Quantitativo (medido e previsível)</option>
-            <option value="5">Otimizado (melhoria contínua)</option>
-        </select>
-        <br>
-    </div>
-
-    <button onclick="calcularNivel()">Calcular meu nível de maturidade!</button>
-    <div id="resultado"></div>
+        <button onclick="calcularNivel()">Calculate Maturity</button>
+        <div id="resultado"></div>
+    </main>
 
     <script src="script.js"></script>
 </body>
